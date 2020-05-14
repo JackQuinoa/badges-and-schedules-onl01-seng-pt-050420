@@ -7,9 +7,13 @@ end
 def batch_badge_creator(name)
   names =["Edsger", "Ada", "Charles", "Linus", "Matz"]
   names.each do |name|
-    returns "Hello, my name is #{name}"
+    puts "Hello, my name is #{name}"
   end
 end
+
+
+
+
 
 def assign_rooms(name,room)
   names =["Edsger", "Ada", "Charles", "Linus", "Matz"]
