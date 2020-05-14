@@ -15,6 +15,7 @@ end
 
 
 def assign_rooms(speakers,room)
-  room=[1,2,3,4,5,6,7]
+  room = 1
+  speakers.each
   return "Hello, #{name}! You'll be asssigned to room #{room}!"
 end
